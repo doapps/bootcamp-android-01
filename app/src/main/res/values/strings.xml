@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tinder</string>
+    
+    <!-- Login Activity -->
+    <string name="login_title">Welcome to Slack</string>
+    <string name="login_subtitle">Team communication for the 21st century</string>
+    <string name="login_username">USERNAME</string>
+    <string name="login_password">PASSWORD</string>
+    <string name="login_signin">SIGN IN</string>
+    <string name="login_signup">SIGN UP FOR AN ACCOUNT</string>
+</resources>

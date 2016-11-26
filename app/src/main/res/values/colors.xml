@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/green_normal</color>
+    <color name="colorPrimaryDark">@color/green_dark</color>
+    <color name="colorAccent">@color/green_light</color>
+
+    <!-- Main Colors -->
+    <color name="green_normal">#3ad68d</color>
+    <color name="green_dark">#41baac</color>
+    <color name="green_light">#4ad99b</color>
+    <color name="gray_normal">#969696</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+</resources>
