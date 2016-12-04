@@ -4,8 +4,18 @@
     <!-- Login Activity -->
     <string name="login_title">Welcome to Slack</string>
     <string name="login_subtitle">Team communication for the 21st century</string>
-    <string name="login_username">USERNAME</string>
+    <string name="login_username">EMAIL</string>
     <string name="login_password">PASSWORD</string>
     <string name="login_signin">SIGN IN</string>
     <string name="login_signup">SIGN UP FOR AN ACCOUNT</string>
+    
+    <!-- Profile Activity -->
+    <string name="profile_name">Jonathan, 25</string>
+    <string name="profile_description">Web Developer en DoApps\n National University of San Marcos, UNMSM</string>
+    <string name="profile_plus">MI TINDER PLUS</string>
+    <string name="profile_settings">AJUSTES</string>
+    <string name="profile_title">Desliza con tus amigos</string>
+    <string name="profile_subtitle">Haz match con grupos de amigos cerca de ti.</string>
+    <string name="profile_create">CREAR TU GRUPO</string>
+    
 </resources>

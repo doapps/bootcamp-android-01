@@ -21,61 +21,49 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:text="@string/login_subtitle"
-            android:textColor="@color/gray_normal"
-            android:textSize="15dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:text="@string/login_username"
-            android:textColor="@color/gray_normal"
-            android:textSize="15dp" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:inputType="textEmailAddress"
             android:textColor="@color/black"
             android:textSize="15dp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="30dp"
             android:text="@string/login_username"
-            android:textColor="@color/gray_normal"
-            android:textSize="15dp" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:inputType="textEmailAddress"
             android:textColor="@color/black"
             android:textSize="15dp" />
 
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/gray_forte"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="10dp"
             android:text="@string/login_password"
-            android:textColor="@color/gray_normal"
+            android:textColor="@color/black"
             android:textSize="15dp" />
 
         <EditText
+            android:id="@+id/edit_password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginLeft="30dp"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:textColor="@color/black"
+            android:background="@color/gray_forte"
             android:textSize="15dp" />
+
+
 
         <Button
+            android:id="@+id/button_signup"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="30dp"
