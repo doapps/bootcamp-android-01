@@ -17,5 +17,9 @@
     <string name="profile_title">Desliza con tus amigos</string>
     <string name="profile_subtitle">Haz match con grupos de amigos cerca de ti.</string>
     <string name="profile_create">CREAR TU GRUPO</string>
+
+    <!-- MEssage Activity -->
+    <string name="message_hint">Buscar</string>
+    <string name="message_title">MENSAJES</string>
     
 </resources>

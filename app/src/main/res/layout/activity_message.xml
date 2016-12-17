@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_profile" />
+
+    <me.doapps.tinder.widget.LigthEdit
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message_hint" />
+
+    <me.doapps.tinder.widget.MediumText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_title"
+        android:textColor="@color/red_end"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -4,52 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/img_background">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="top|center"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="left"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:src="@drawable/ic_user_selected" />
-
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:background="@drawable/custom_button_gray"
-                android:padding="8dp"
-                android:src="@drawable/ic_flame" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:src="@drawable/ic_comment_unselected" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/gray_medium" />
-
-    </LinearLayout>
+    <include layout="@layout/header_profile" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,19 +36,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <me.doapps.tinder.widget.MediumText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:drawableLeft="@drawable/ic_plus"
                 android:gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
                 android:text="@string/profile_plus"
                 android:textColor="@color/red_light"
                 android:textSize="14dp" />
@@ -107,11 +62,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:drawableLeft="@drawable/ic_setting"
                 android:gravity="center"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
                 android:text="@string/profile_settings"
                 android:textColor="@color/red_light"
                 android:textSize="14dp" />
